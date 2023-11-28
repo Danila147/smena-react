@@ -1,0 +1,14 @@
+.page {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  
+  min-width: 390px;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  background-color: #3E3740;
+}
