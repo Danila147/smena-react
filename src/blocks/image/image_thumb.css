@@ -1,0 +1,6 @@
+.image_thumb {
+  background-image: url(../../img/header-star.svg);
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}

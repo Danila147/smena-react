@@ -1,0 +1,7 @@
+.info__image {
+  background-image: url(../../../img/about-team.jpeg);
+  width: 640px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}

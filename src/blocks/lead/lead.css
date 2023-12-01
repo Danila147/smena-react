@@ -1,8 +1,6 @@
 .lead {
-  width: 539px;
+  width: 100%;
   font-weight: 500;
   color: #d6e8f4;
-  margin-bottom: 210px;
   display: flex;
-  flex-direction: column;
 }

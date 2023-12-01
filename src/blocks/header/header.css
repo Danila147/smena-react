@@ -1,8 +1,7 @@
-.header{
-    width: 100%;
-    margin-bottom: 120px;
-    display: flex;
-    justify-content: center;
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
-    background-color: #3E3740;
+  background-color: #3e3740;
 }
