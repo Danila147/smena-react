@@ -1,0 +1,7 @@
+.star {
+  background-image: url(../../img/star.svg);
+  position: absolute;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,14 @@
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  background-color: hsl(206, 37%, 87%);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  color: #3e3740;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import drinks from '../img/menu-drinks.jpg';
+import food from '../img/menu-food.jpg';
 
 function Main() {
   return (
@@ -12,7 +14,7 @@ function Main() {
             кафе на переулке Баскова в Петербурге
           </p>
           <button className='button'>смотреть меню</button>
-          <div className='image_thumb lead__image_thumb'></div>
+          <div className='star lead__star'></div>
         </div>
         <div className='lead__image'></div>
       </section>
@@ -42,10 +44,25 @@ function Main() {
           <p className='info__text info__text_add'>
             * столы не бронируем, но попробуем найти для вас местечко
           </p>
-          <div className='image_thumb info__image_thumb'></div>
+          <div className='star info__star'></div>
         </div>
       </section>
-      <section></section>
+      <section className='menu'>
+        <h2 className='menu__title'>наше меню</h2>
+        <div className='menu__cards'>
+          <article className='card'>
+            <p className='card__title'>НАПИТКИ</p>
+            <img src={drinks} className='card__img' />
+          </article>
+          <article className='card'>
+            <p className='card__title'>ЕДА</p>
+            <img src={food} className='card__img' />
+          </article>
+        </div>
+        <div className='menu__elipse'></div>
+        <div className='star menu__star_first'></div>
+        <div className='star menu__star_second'></div>
+      </section>
       <section></section>
       <section></section>
     </main>
