@@ -59,11 +59,21 @@ function Main() {
             <img src={food} className='card__img' />
           </article>
         </div>
-        <div className='menu__elipse'></div>
+        <div className='elipse menu__elipse'></div>
         <div className='star menu__star_first'></div>
         <div className='star menu__star_second'></div>
       </section>
-      <section></section>
+      <section className='join'>
+        <p className='join__title'>СТАТЬ ЧАСТЬЮ СМЕНЫ</p>
+        <div className='join__text-container'>
+          <p className='join__text'>
+            Предлагаем вам заполнить форму, возможно, ты-именно тот, кого мы
+            сейчас ищем :)
+          </p>
+          <button className='button'>заполнить форму</button>
+        </div>
+        <div className='elipse join__elipse'></div>
+      </section>
       <section></section>
     </main>
   );

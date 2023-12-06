@@ -1,9 +1,5 @@
 .menu__elipse {
   background-image: url('../../../img/menu-elipse.svg');
-  width: 170px;
-  height: 69px;
-  position: absolute;
   top: 70px;
   left: 722px;
-  z-index: 1;
 }
