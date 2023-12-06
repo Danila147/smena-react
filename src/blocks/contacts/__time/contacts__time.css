@@ -1,0 +1,10 @@
+.contacts__time {
+  margin: 0;
+  font-size: 18px;
+  line-height: 175%;
+  letter-spacing: 1.44px;
+}
+
+.contacts__time:last-of-type {
+  margin-bottom: 52px;
+}

@@ -1,0 +1,5 @@
+.contacts__image {
+  background-image: url(../../../img/info-cafe.jpg);
+  background-size: cover;
+  width: 720px;
+}

@@ -1,0 +1,13 @@
+.contacts {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fcf9e6;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3e3740;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+  position: relative;
+}

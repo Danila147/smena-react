@@ -1,0 +1,6 @@
+.contacts__info {
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 150px 123px 140px;
+}

@@ -3,4 +3,5 @@
   font-weight: 500;
   color: #d6e8f4;
   display: flex;
+  justify-content: space-between;
 }

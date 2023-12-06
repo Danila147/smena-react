@@ -72,9 +72,21 @@ function Main() {
           </p>
           <button className='button'>заполнить форму</button>
         </div>
-        <div className='elipse join__elipse'></div>
+        <div className='elipse `join__elipse`'></div>
       </section>
-      <section></section>
+      <section className='contacts'>
+        <div className='contacts__info'>
+          <p className='contacts__title'>КАК НАС НАЙТИ</p>
+          <p className='contacts__address'>
+            Санкт-Петербург, Басков переулок 20.
+          </p>
+          <p className='contacts__time'>пн-пт: 8:00-20:00</p>
+          <p className='contacts__time'>сб, вс и праздники: 9:00-20:00</p>
+          <button className='button'>проложить маршрут</button>
+        </div>
+        <div className='contacts__image'></div>
+        <div className='star contacts__star'></div>
+      </section>
     </main>
   );
 }
