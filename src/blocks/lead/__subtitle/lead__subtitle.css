@@ -1,6 +1,7 @@
 .lead__subtitle {
   font-size: 24px;
-  margin: 0 0 40px 0;
+  /* margin: 0 0 40px 0; */
+  margin: 0 40px 40px 140px;
   line-height: 140%;
   letter-spacing: 0.72px;
 }

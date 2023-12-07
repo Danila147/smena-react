@@ -13,7 +13,7 @@ function Main() {
           <p className='lead__subtitle'>
             кафе на переулке Баскова в Петербурге
           </p>
-          <button className='button'>смотреть меню</button>
+          <button className='button lead__button'>смотреть меню</button>
           <div className='star lead__star'></div>
         </div>
         <div className='lead__image'></div>
