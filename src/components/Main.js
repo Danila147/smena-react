@@ -47,6 +47,7 @@ function Main() {
           <div className='star info__star'></div>
         </div>
       </section>
+
       <section className='menu'>
         <h2 className='menu__title'>наше меню</h2>
         <div className='menu__cards'>
@@ -63,6 +64,7 @@ function Main() {
         <div className='star menu__star_first'></div>
         <div className='star menu__star_second'></div>
       </section>
+
       <section className='join'>
         <p className='join__title'>СТАТЬ ЧАСТЬЮ СМЕНЫ</p>
         <div className='join__text-container'>
@@ -72,8 +74,9 @@ function Main() {
           </p>
           <button className='button'>заполнить форму</button>
         </div>
-        <div className='elipse `join__elipse`'></div>
+        <div className='elipse join__elipse'></div>
       </section>
+
       <section className='contacts'>
         <div className='contacts__info'>
           <p className='contacts__title'>КАК НАС НАЙТИ</p>

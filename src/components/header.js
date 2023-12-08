@@ -4,24 +4,24 @@ function Header() {
   return (
     <header className='header header-position'>
       <div className='logo-container'>
-        <img src={logo} alt='logo' className='header__logo' />
+        <img src={logo} alt='logo' className='logo header__logo' />
       </div>
       <nav className='header__navigation'>
         <ul className='header__links'>
           <li>
-            <a className='header__link'>О нас</a>
+            <a className='header__link'>о нас</a>
           </li>
           <li>
-            <a className='header__link'>Местоположение</a>
+            <a className='header__link'>местоположение</a>
           </li>
           <li>
-            <a className='header__link'>Меню</a>
+            <a className='header__link'>меню</a>
           </li>
           <li>
-            <a className='header__link'>Вакансии</a>
+            <a className='header__link'>вакансии</a>
           </li>
           <li>
-            <a className='header__link'>Контакты</a>
+            <a className='header__link'>контакты</a>
           </li>
         </ul>
       </nav>

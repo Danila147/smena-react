@@ -1,6 +1,7 @@
 import '../index.css';
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className='page'>
         <Header />
         <Main />
-        <footer></footer>
+        <Footer />
       </div>
     </div>
   );
